@@ -21,7 +21,7 @@ public class SanthuongmaiApplication extends SpringBootServletInitializer{
 		SpringApplication.run(SanthuongmaiApplication.class, args);
 	}
 	
-	@Override
+	@Overrid
     protected SpringApplicationBuilder configure(SpringApplicationBuilder application) {
         return application.sources(SanthuongmaiApplication.class);
     }
